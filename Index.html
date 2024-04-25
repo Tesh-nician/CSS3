@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+
+  
+
+     <script>
+        window.onload = function() {
+            var text = document.getElementById('text');
+            var word = 'superhelden';
+            var word2= 'superheld';
+            var regex = new RegExp(word, 'g');
+            var regex2 = new RegExp(word2, 'g');
+            text.innerHTML = text.innerHTML.replace(regex, '<span class="bold">' + word + '</span>');
+            text.innerHTML = text.innerHTML.replace(regex2, '<span class="bold">' + word2 + '</span>');
+        };
+    </script>
+    
+</head>
+
+    
+
+
+    <nav>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="EightMan.html"> EightMan</a></li>
+            <li><a href="GreenLama.html">Green Lama</a></li>
+            <li><a href="Stardust.html">Stardust</a></li>
+            <li><a href="Andere.html">Andere</a></li>
+        </ul> 
+</nav>
+<main>
+
+<body>
+    
+
+<img src="/afbeeldingen/superheroIncLogo.png" alt="superhero" width="100" height="100" class="center" >
+
+
+
+
+    
+    <article>
+        <!-- <title> -->
+            
+            <h2>Over Ons</h2>
+            <img src="/afbeeldingen/bang.png" alt="bang" width="100" height="100" class="float-right">
+<p>Superman, Batman, Wonder Woman, Spider-man, Iron Man, Captain America en the Incredible Hulk zijn slechts enkelen op een lange lijst van wereldberoemde superhelden, die worden herkend tot in de meest afgelegen delen van de wereld.
+Maar zelfs na de explosieve toename van populariteit in het genre zijn er nog steeds een paar superhelden</span> die, hoewel ooit populair in hun tijd, doorheen de loop der jaren zo goed als vergeten zijn.
+Of het nu personages betreft uit Pulp Magazines, tv-series, animatie of strips, tijd en onderbelichting hebben helaas het algemene publiek deze superhelden en hun opwindende avonturen doen vergeten.
+Superhero Inc zorgt ervoor dat deze superhelden alsnog het plaatsje krijgen die ze verdienen!</p>
+    </article>
+
+ 
+</body>
+</main> 
+
+    <footer>
+        <center> <br><br>&copy; 2020 Superhero <br>
+        Bron: geeks.media</center>
+    </footer>
+</html>
